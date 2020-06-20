@@ -1,0 +1,243 @@
+body {
+    background-color: rgb(0, 0, 0);
+/* 
+    border-left-width : 20px;
+    border-right-width: 20px;
+    border-style      : double; */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* box-shadow: inset 0 0 5px rgb(34, 34, 34); */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px rgb(34, 34, 34); */
+  border-radius: 30px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background   : rgb(24, 24, 24);
+  border-radius: 30px;
+}
+
+.btn_StartNow{
+    color                : #ffffff;
+    background-color     : #131313;
+    text-align           : center;
+    white-space          : nowrap;
+    overflow             : hidden;
+    border               : 0px solid #338fff;
+    border-radius        : 200px;
+    border-color         : #338fff;
+    padding              : 5%;
+    width                : 100%;
+    height               : 100%;
+    max-width            : 150px;
+    max-height           : 10px;
+    cursor               : pointer;
+    font-weight          : bold;
+    -webkit-touch-callout: none;
+    -webkit-user-select  : none;
+    -khtml-user-select   : none;
+    -moz-user-select     : none;
+    -ms-user-select      : none;
+    user-select          : none;
+    box-shadow           : 0px -2px tomato;
+    text-shadow          : -1px -1px rgb(32, 32, 32);
+
+    font-size: 310%;
+
+    min-width : 20%;
+    min-height: 5%;
+    max-width : 80%;
+    max-height: 50px;
+
+    margin-top  : 3%;
+    margin-left : auto;
+    margin-right: auto;
+    
+    z-index: 2;
+}
+
+.btn_StartNow:hover{
+box-shadow: inset 0 0 0 1px #53ea93;
+color     : tomato;
+}
+
+.btn_Record{
+    color                : #ffffff;
+    background-color     : #131313;
+    text-align           : center;
+    white-space          : nowrap;
+    overflow             : hidden;
+    border               : 0px solid #338fff;
+    border-radius        : 200px;
+    border-color         : #338fff;
+    padding              : 5%;
+    width                : 100%;
+    height               : 100%;
+    max-width            : 150px;
+    max-height           : 10px;
+    cursor               : pointer;
+    font-weight          : bold;
+    -webkit-touch-callout: none;
+    -webkit-user-select  : none;
+    -khtml-user-select   : none;
+    -moz-user-select     : none;
+    -ms-user-select      : none;
+    user-select          : none;
+    box-shadow           : 0px -2px tomato;
+    text-shadow          : -1px -1px rgb(32, 32, 32);
+
+    font-size: 265%;
+
+    min-width : 20%;
+    min-height: 5%;
+    max-width : 80%;
+    max-height: 50px;
+
+    margin-top  : 5%;
+    margin-left : auto;
+    margin-right: auto;
+
+    z-index: 2;
+}
+
+.btn_Record:hover{
+box-shadow: inset 0 0 0 1px #53ea93;
+color     : tomato;
+}
+
+.block{
+    border          : 30px solid #131313;
+    border-radius   : 10px;
+    color           : #131313;
+    background-color: #131313;
+    width           : 100%;
+    /* display         : table; */
+    /*margin-right    : auto;
+    margin-right    : auto; */
+    border-radius   : 30px;
+    box-shadow      : -2px -2px tomato;
+/* 
+    min-width: 230px;
+
+
+    max-width: 250px; */
+
+min-width : auto;
+min-height: auto;
+max-width : auto;
+max-height: auto;
+
+min-width: 300px;
+max-width: 300px;
+    
+    /* background-size: 110%; */
+}
+
+.lbl_MainMenu{
+        color      : rgb(204, 201, 201);
+    background : transparent;
+    margin-left: 0px;
+    font-size  : larger;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select  : none;
+        -khtml-user-select   : none;
+        -moz-user-select     : none;
+        -ms-user-select      : none;
+        user-select          : none;
+
+        font-size: 320%;
+
+        margin-right: 15%;
+
+    cursor         : pointer;
+    text-decoration: none;
+color: tomato;
+
+    /* color      : rgb(204, 201, 201);
+    background : transparent;
+    margin-left: 0px;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select  : none;
+        -khtml-user-select   : none;
+        -moz-user-select     : none;
+        -ms-user-select      : none;
+        user-select          : none;
+
+
+        color: tomato;
+
+        font-size: 200%;
+
+
+    cursor         : pointer;
+    text-decoration: none; */
+}
+
+.lbl_MainMenu:hover + .Hide_Info{
+    color: tomato;
+}
+
+.Hide_Info{
+    color: #131313;
+}
+
+.lbl_Info{
+    color      : rgb(204, 201, 201);
+    background : transparent;
+    margin-left: auto;
+    /* font-size  : larger; */
+
+        -webkit-touch-callout: none;
+        -webkit-user-select  : none;
+        -khtml-user-select   : none;
+        -moz-user-select     : none;
+        -ms-user-select      : none;
+        user-select          : none;
+
+
+        /* color: tomato; */
+
+        font-size: 300%;
+
+        min-width : 50%;
+min-height: 8%;
+max-width : 10%;
+max-height: 10%;
+    
+    cursor         : pointer;
+    text-decoration: none;
+}
+.lbl_Info:hover{
+    color: rgb(238, 238, 238);
+}
+
+.Hide_Menu{
+}
+
+
+.hide_line{
+    -webkit-touch-callout: none;
+    -webkit-user-select  : none;
+    -khtml-user-select   : none;
+    -moz-user-select     : none;
+    -ms-user-select      : none;
+    user-select          : none;
+    
+        -webkit-touch-callout: none;
+        -webkit-user-select  : none;
+        -khtml-user-select   : none;
+        -moz-user-select     : none;
+        -ms-user-select      : none;
+        user-select          : none;
+    text-decoration: none;
+}
+
+
